@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <title>API User Register</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocas-ui/2.3.3/tocas.js"></script>
+</head>
+
+<body>
+    <form class="ts form" action="http://127.0.0.1:8080/api/user" method="POST">
+        <div class="field">
+            <label>帳號</label>
+            <input type="text" name="username">
+        </div>
+        <div class="field">
+            <label>密碼</label>
+            <input type="text" name="password">
+        </div>
+        <div class="field">
+            <label>Email</label>
+            <input type="text" name="email">
+            </div>
+        <div class="field">
+            <div class="ts checkbox">
+                <input id="agree" type="checkbox">
+                <label for="agree">我同意氣象站服務隱私協議。</label>
+            </div>
+        </div>
+        <input class="ts button" type="submit"></input>
+    </form>
+    <br>
+    <br>
+</body>
+
+</html>

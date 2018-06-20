@@ -1,18 +1,13 @@
 {
     "secret": "12345",
-	"user": {
-		"username": "weather_station",
-		"password": "123456"
-	},
-	"info": {
-		"location": "NHSH",
-		"_id": "nhsh"
-	},
+    "info": {
+	"location": "NHSH"
+    },
     "server": {
         "port": "8080"
     },
     "database": {
-        "key": "weather",
+        "key": "weather-data",
         "host": "127.0.0.1",
         "port": "6379",
         "password": ""
